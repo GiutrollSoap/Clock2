@@ -9,9 +9,9 @@ package Reloj;
  * @author UTN
  */
 public abstract class Tiempo {
-    private int hora;
-    private int minuto;
-    private int segundo;
+    protected int hora;
+    protected int minuto;
+    protected int segundo;
     
     
     public Tiempo(){
